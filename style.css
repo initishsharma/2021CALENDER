@@ -1,0 +1,83 @@
+.cent{
+    padding: 3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-weight: 500;
+}
+
+.clicker{
+    text-align: center;
+    padding: 5rem;
+}
+
+.btn{
+    padding: 1rem;
+}
+
+.calendar {
+	border-radius: 0.2rem;
+	width: 500px; height: 300px;
+	position: absolute;
+}
+
+
+
+header { padding: 0.7rem 0 0 2rem; }
+
+/** Year **/
+header h1 { font-size: 4rem; }
+
+/** Month **/
+header h3 { font-size: 1.2rem; }
+
+/** Dates **/
+table {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 290px; height: 190px;
+	padding: 0.2rem;
+	border-radius: 0.6rem;
+	position: relative ;
+	top: 27.5%; left: 31%;
+	
+}
+
+/** Week Name **/
+table th { letter-spacing: 0.025rem; }
+
+/** 1 to 31 **/
+table td {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
+	transition: all 250ms ease 0s;
+}
+
+table td:hover {
+	background-color: #fb5615;
+	border-radius: 3rem;
+	color: #f2f2f2;
+	cursor: pointer;
+}
+
+/** Current Date **/
+table tr td.current {
+	background-color: #f79800;
+	border-radius: 3rem;
+	color: #f2f2f2;
+}
+
+/** Blank Table td on Hover **/
+.blank:hover {
+	background-color: transparent;
+	cursor: auto;
+}
+
+
+.div1{
+    pad: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
