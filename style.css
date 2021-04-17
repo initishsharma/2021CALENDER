@@ -81,3 +81,13 @@ table tr td.current {
     margin-left: auto;
     width: 50%;
 }
+
+.footerhere{
+padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+.chota{
+	margin-left: -100px;
+}}
