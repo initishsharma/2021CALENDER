@@ -13,13 +13,19 @@
 }
 
 .btn{
-    padding: 1rem;
+    padding: 1vh;
 }
 
 .calendar {
 	border-radius: 0.2rem;
 	width: 500px; height: 300px;
 	position: absolute;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #ff6a01;
 }
 
 
