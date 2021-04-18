@@ -1,9 +1,9 @@
 .cent{
-    padding: 3rem;
+    padding: 1rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     font-weight: 500;
 }
 
@@ -90,4 +90,13 @@ padding-top: 30px;
 	
 .chota{
 	margin-left: -100px;
-}}
+}
+}
+
+@media only screen and (min-width: 800px) 
+{
+	.chota
+	{
+		margin-left: 170px;
+	}
+}
