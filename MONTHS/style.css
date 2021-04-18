@@ -10,12 +10,13 @@
 .clicker{
     text-align: center;
     padding: 5rem;
+	background-color: lemonchiffon;
 }
 
 .btn{
     border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 5px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -23,7 +24,7 @@
   margin: 4px 2px;
   cursor: pointer;
 	}
-}
+
 
 .calendar {
 	border-radius: 0.2rem;
@@ -47,6 +48,10 @@ a {
     color: #000000;
     text-decoration: underline;
     background-color: #fc931b;
+}
+
+.selecthere{
+	background-color: lemonchiffon;
 }
 
 header { padding: 0.7rem 0 0 2rem; }
