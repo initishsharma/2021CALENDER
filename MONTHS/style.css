@@ -25,7 +25,13 @@
 .btn-secondary {
     color: #fff;
     background-color: #fc931b;
-    border-color: #ff6a01;
+    border-color: #000000;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #fc931b;
+    border-color: #000000;
 }
 
 a {
@@ -141,4 +147,17 @@ padding-top: 30px;
 	padding: 1rem;
 	text-align: center;
 	margin-left: -40px;
+}
+
+.download{
+	background-image: url(./gradient.jpg);
+}
+
+.bg-light {
+     background-color: #ffeece!important;
+
+}
+
+.text-white {
+    color: #000!important;
 }
