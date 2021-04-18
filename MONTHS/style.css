@@ -106,3 +106,35 @@ padding-top: 30px;
 		margin-left: 170px;
 	}
 }
+
+
+/* TABLES ARE HERE  */
+
+#table1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#table1 td, #table1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#table1 tr:hover {background-color: #ddd;}
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+ 
+  background-color: #fc931b;
+  color: white;
+}
+
+.cent1{
+	padding: 1rem;
+	text-align: center;
+	margin-left: -40px;
+}
